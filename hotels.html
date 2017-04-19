@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона - Гостиницы</title>
+</head>
+<body>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <div class="container-left">
+        <ul>
+          <li>
+            <a href="#">Информация</a>
+          </li>
+          <li>
+            <a href="#">Фото и Видео</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container-right">
+        <ul>
+          <li>
+            <a href="#">Карта штата</a>
+          </li>
+          <li>
+            <a class="hotels-nav-hotel-name" href="hotels.html.html">Гостиницы</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <div class="index-logo">
+      <a href="index.html">
+        <img src="http://placehold.it/150x100" alt="Седона">
+      </a>
+    </div>
+  </main>
+  <div class="hotels-filter-block">
+    <form class="hotels-filter-form" action="https://echo.htmlacademy.ru" method="post">
+      <div class="infrastructure">
+        <b>Инфраструктура:</b>
+        <label>
+          <input type="checkbox" name="infrastructure[]" value="pool" checked>Бассейн
+        </label>
+        <label>
+          <input type="checkbox" name="infrastructure[]" value="parking">Парковка
+        </label>
+        <label>
+          <input type="checkbox" name="infrastructure[]" value="wifi">WI-FI
+        </label>
+      </div>
+      <div class="type-housing">
+        <b>Тип жилья:</b>
+        <label>
+          <input type="checkbox" name="typehousing[]" value="hotel" checked>Гостиница
+        </label>
+        <label>
+          <input type="checkbox" name="typehousing[]" value="motel" checked>Мотель
+        </label>
+        <label>
+          <input type="checkbox" name="typehousing[]" value="apartments" checked>Апартаменты
+        </label>
+      </div>
+      <div class="filter-value">
+        <b>Стоимость в сутки (₽):</b>
+        <label>
+          <input type="text" name="minprice" value="" placeholder="От 0">
+        </label>
+        <label>
+          <input type="text" name="maxprice" value="" placeholder="До 3000">
+        </label>
+        <label>
+          <input type="range" step="1" min="0" max="100" value="80" name="price">
+        </label>
+        <button class="btn" type="submit">Показать</button>
+      </div>
+    </form>
+  </div>
+  <div class="hotels-sort">
+    <h2>Найдено: 3</h2>
+    <p>Сортировка:</p>
+    <span class="byprice">по цене</span>
+    <span>по типу</span>
+    <span>по рейтингу</span>
+  </div>    
+  <article class="hotel-amara">
+    <img src="http://placehold.it/150x100" alt="фото гостиницы">
+    <h3>Amara resort &amp; spa</h3>
+    <p>Гостиница</p>
+    <p>от 4000 р.</p>
+    <a href="#" class="info">Подробнее</a>
+    <a href="#" class="reservation">Забронировать</a>
+    <span>Рейтинг: 8,5</span>
+  </article>
+  <article class="motel-desert">
+    <img src="http://placehold.it/150x100" alt="фото мотеля">
+    <h3>Desert Quail Inn</h3>
+    <p>Мотель</p>
+    <p>от 3000 р.</p>
+    <a href="#" class="info">Подробнее</a>
+    <a href="#" class="reservation">Забронировать</a>
+    <span>Рейтинг: 8,9</span>
+  </article>
+  <article class="apartments-villas">
+    <img src="http://placehold.it/150x100" alt="фото апартаментов">
+    <h3>Villas At Poco Diablo</h3>
+    <p>Апартаменты</p>
+    <p>от 2000 р.</p>
+    <a href="#" class="info">Подробнее</a>
+    <a href="#" class="reservation">Забронировать</a>
+    <span>Рейтинг: 9,1</span>
+  </article>
+  <footer class="main-footer">
+    <div class="container">
+      <section class="visit">
+        <p>#visitsedona</p>
+      </section>
+      <section class="footer-social">
+        <a class="social-btn social-btn-tw" href="#">Twitter</a>
+        <a class="social-btn social-btn-fb" href="#">Facebook</a>
+        <a class="social-btn social-btn-yt" href="#">Youtube</a>
+      </section>
+      <section class="footer-copyright">
+        <a class="btn" href="https://htmlacademy.ru">Website by HTML Academy</a>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
