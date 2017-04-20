@@ -4,7 +4,7 @@ body {
   color: #333;
   font-weight: regular;
   text-transform: uppercase;
-  font-family: "pt sans narrow", sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
 
 .main-page-content-fact  {
@@ -13,7 +13,7 @@ body {
   color: #fff;
   font-weight: regular;
   text-transform: uppercase;
-  font-family: "pt sans narrow", sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
 
 .content-fact-name {
@@ -22,5 +22,5 @@ body {
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: "pt sans narrow", sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
