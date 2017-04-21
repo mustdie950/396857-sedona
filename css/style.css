@@ -2,7 +2,6 @@ body {
   font-size: 14px;
   line-height: 21px;
   color: #333;
-  font-weight: regular;
   text-transform: uppercase;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
@@ -11,7 +10,6 @@ body {
   font-size: 14px;
   line-height: 21px;
   color: #fff;
-  font-weight: regular;
   text-transform: uppercase;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
@@ -23,4 +21,8 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
+}
+
+.main-page-content-fact {
+  background-color: #81b3d2;
 }
