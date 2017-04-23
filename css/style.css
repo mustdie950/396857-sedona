@@ -1,0 +1,28 @@
+body {
+  font-size: 14px;
+  line-height: 21px;
+  color: #333;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+}
+
+.main-page-content-fact  {
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+}
+
+.content-fact-name {
+  font-size: 21px;
+  line-height: 21px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+}
+
+.main-page-content-fact {
+  background-color: #81b3d2;
+}
