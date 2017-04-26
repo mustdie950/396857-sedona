@@ -54,6 +54,7 @@ body {
   align-self: flex-end;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 600px;
   margin-bottom: 50px;
 }
 
@@ -68,6 +69,7 @@ body {
 }
 
 .content-fact-name {
+  width: 400px;
   margin-top: 50px;
   text-align: center;
 }
@@ -109,6 +111,7 @@ body {
 
 .desc-search {
   width: 488px;
+  margin-top: 57px;
   -ms-flex-item-align: end;
   align-self: flex-end;
   background-color: #580;
