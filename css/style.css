@@ -3,7 +3,7 @@ body {
   line-height: 21px;
   color: #333;
   text-transform: uppercase;
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 
 .main-page-content-fact  {
@@ -11,7 +11,7 @@ body {
   line-height: 21px;
   color: #fff;
   text-transform: uppercase;
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 
 .content-fact-name {
@@ -20,9 +20,220 @@ body {
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 
-.main-page-content-fact {
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #9ba39e; /* серый */
+}
+
+.main-navigation {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #989;
+}
+
+.main-page-content-top {
+  background: #333 url("../img/Main-foto.jpg") no-repeat 100%;
+  background-size: 1200px auto;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 780px;
+
+}
+
+.main-content-name {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+.main-page-content-fact1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-bottom: 60px;
+  height: 256px;
   background-color: #81b3d2;
+}
+
+.content-fact-name {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.main-page-content-fact2 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  margin-bottom: 60px;
+  height: 256px;
+  background-color: #81b3d2;
+}
+
+.features {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  background-color: #eee;
+}
+
+.features-item {
+  width: 300px;
+  text-align: center;
+  background-color: #777;
+}
+
+.search-form-title {
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  min-height: 290px;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #888;
+}
+
+.desc-search {
+  width: 488px;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  background-color: #580;
+}
+
+.search-form-dynamic {
+  background: #333 url("../img/map.jpg") no-repeat 100%;
+  background-size: 1200px auto;
+  width: 1200px;
+  min-height: 593px;
+}
+
+.search-form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 300px;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 576px;
+  height: 395px;
+
+  background-color: #380;
+}
+
+.main-footer {
+  padding-top: 35px;
+  padding-bottom: 40px;
+  background-color: #e61;
+}
+
+.main-footer-layout {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-visit {
+  width: 240px;
+  text-align: center;
+  background-color: #ec1;
+}
+
+.footer-social {
+  width: 400px;
+  text-align: center;
+  background-color: #ec2;
+}
+
+.footer-copyright {
+  width: 240px;
+  text-align: center;
+  background-color: #ec7;
+}
+
+.hotels-filter-block {
+  background: #333 url("../img/Main-foto-blur.jpg") no-repeat 100%;
+  background-size: 1200px auto;
+  background-position: 5% 17%;
+}
+
+.hotels-filter-column {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  min-height: 218px;
+}
+
+.infrastructure {
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  width: 201px;
+  margin-left: 73px;
+}
+
+.type-housing {
+  width: 201px;
+  margin-left: 40px;
+}
+
+.filter-value {
+  width: 330px;
+  margin-left: 286px;
+}
+
+.hotels-sort-column {
+  display: -ms-flexbox;
+  display: flex;
+  width: 530px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-left: 73px;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.hotel-block {
+  display: -ms-flexbox;
+  display: flex;
+  width: 1056px;
+  min-height: 150px;
+  margin-left: 73px;
+  -ms-flex-align: center;
+      align-items: center;
+  background-color: #ec8;
+}
+
+.house-desc {
+  width: 260px;
+  margin-left: 30px;
+  margin-bottom: 25px;
+}
+
+.house-rating {
+ -ms-flex-item-align: end;
+     align-self: flex-end;
+ margin-bottom: 30px;
+ margin-left: 525px;
 }
