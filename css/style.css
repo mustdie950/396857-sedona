@@ -89,15 +89,15 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+  align-items: center;
   min-height: 320px;
   background-color: #d1d1c7;
 }
 
 .features-item {
-  width: 320px;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+  width: 380px;
+  min-height: 200px;
+
   text-align: center;
   background-color: #c56f58;
 }
