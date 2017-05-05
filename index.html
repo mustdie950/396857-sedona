@@ -8,9 +8,9 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-  <header class="main-header">
+  <header class="main-header container">
     <div class="index-logo">
-      <a class="logo-pic"></a>
+      <a class="logo-pic" href="#"></a>
     </div>
     <nav class="main-navigation">
       <div class="menu-info">
@@ -27,8 +27,8 @@
       </div>
     </nav>
   </header>
-  <main class="container">
-    <section class="main-page-content-top">
+  <main>
+    <section class="main-page-content-top container">
       <div class="main-page-pic">
         <img src="img/Main-foto.jpg" width="1200" height="780" alt="слоган сайта">
       </div>
@@ -38,7 +38,7 @@
       </div>
     </section>
 
-    <section class="main-page-content-fact1">
+    <section class="main-page-content-fact1 container">
       <div class="content-fact-name">
         <b>Настоящий<br> городок</b>
         <p>&mdash; №1 &mdash;</p>
@@ -49,7 +49,7 @@
       </div>    
     </section>
 
-    <section class="features-top">
+    <section class="features-top container">
       <div class="features-item">
         <div class="house-pic"></div>
         <b class="features-name">Жилье</b>
@@ -67,7 +67,7 @@
       </div>
     </section>
 
-    <section class="main-page-content-fact2">
+    <section class="main-page-content-fact2 container">
       <div class="content-fact-name">
         <b>Там есть<br> мост дьявола</b>
         <p>&mdash; №2 &mdash;</p>
@@ -78,7 +78,7 @@
       </div>    
     </section>  
 
-    <section class="features-bottom">
+    <section class="features-bottom container">
       <div class="features-item-bottom">
         <b class="features-name">Небольшая<br> площадь</b>
         <p>&mdash; №3 &mdash;</p>
@@ -96,7 +96,7 @@
       </div>
     </section>
 
-    <div class="search-form-title">
+    <div class="search-form-title container">
       <div class="desc-search">
         <h2>Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
@@ -104,10 +104,7 @@
       </div>
     </div>
     
-    <div class="search-form-dynamic">
-      <div class="frame-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d465964.4693461057!2d-111.9391999776695!3d34.8423053523895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNg!5e0!3m2!1sru!2sru!4v1493925449740" width="1200" height="575"></iframe>
-      </div>
+    <div class="search-form-dynamic container">
       <div class="search-form-block">
         <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
           <div class="indate-block">
@@ -125,44 +122,41 @@
           <div class="adult-child-block">
             <div class="adult">
               <label for="adult-field">Взрослые:</label>
+              <button class="btn-search-prev-adult" type="button"></button>
               <input type="text" name="adult" id="adult-field" value="2" placeholder="2">
-            </div>
-
+              <button class="btn-search-next-adult" type="button"></button>
+            </div> 
             <div class="child">
               <label for="children-field">Дети:</label>
+              <button class="btn-search-prev-child" type="button"></button>
               <input type="text" name="children" id="children-field" value="0" placeholder="0">
+              <button class="btn-search-next-child" type="button"></button>
             </div>
           </div>
-          <div class="buttons-search-form">
-           <button class="btn-search-prev-adult minus-btn" type="button"></button>
-           <button class="btn-search-next-adult plus-btn" type="button"></button>
-           <button class="btn-search-prev-child minus-btn" type="button"></button>
-           <button class="btn-search-next-child plus-btn" type="button"></button>
-         </div>
 
-         <div class="btn-show-result">
-          <button class="btn-search" type="submit">Найти</button>
-        </div>
-      </form>
-    </div>     
-  </div>
-</main>
+          <div class="btn-show-result">
+            <button class="btn-search" type="submit">Найти</button>
+          </div>
+        </form>
+      </div>     
+    </div>
+  </main>
 
-<footer class="main-footer container">
-  <div class="main-footer-layout">
-    <section class="footer-visit">
-      <p>#visitsedona</p>
-    </section>
-    <section class="footer-social">
-      <a class="social-btn social-btn-tw" href="#">tw</a>
-      <a class="social-btn social-btn-fb" href="#">fb</a>
-      <a class="social-btn social-btn-yt" href="#">yt</a>
-    </section>
-    <section class="footer-copyright">
-      <p>Website by</p>
-      <a href="https://htmlacademy.ru/intensive/htmlcss" title="HTML Academy"></a>
-    </section> 
-  </div>
-</footer>
+  <footer class="main-footer container">
+    <div class="main-footer-layout">
+      <section class="footer-visit">
+        <p>#visitsedona</p>
+      </section>
+      <section class="footer-social">
+        <a class="social-btn social-btn-tw" href="#">tw</a>
+        <a class="social-btn social-btn-fb" href="#">fb</a>
+        <a class="social-btn social-btn-yt" href="#">yt</a>
+      </section>
+      <section class="footer-copyright">
+        <p>Website by</p>
+        <a href="https://htmlacademy.ru/intensive/htmlcss" title="HTML Academy"></a>
+      </section> 
+    </div>
+  </footer>
 </body>
 </html>
