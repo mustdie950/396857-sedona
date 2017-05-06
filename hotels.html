@@ -42,13 +42,13 @@
             </p>
             <p>
               <label class="checkbox">
-                <input type="checkbox" name="infrastructure[]" value="parking">Парковка
+                <input type="checkbox" name="infrastructure[]" value="parking" disabled>Парковка
                 <span class="checkbox-indicator"></span>
               </label>
             </p>
             <p>
               <label class="checkbox">
-                <input type="checkbox" name="infrastructure[]" value="wifi">WI-FI
+                <input type="checkbox" name="infrastructure[]" value="wifi" >WI-FI
                 <span class="checkbox-indicator"></span>
               </label>
             </p>
@@ -64,7 +64,7 @@
             </p>
             <p>
               <label class="checkbox">
-                <input type="checkbox" name="typehousing[]" value="motel" checked>Мотель
+                <input type="checkbox" name="typehousing[]" value="motel" disabled  checked>Мотель
                 <span class="checkbox-indicator"></span>
               </label>
             </p>
@@ -99,12 +99,16 @@
       <h2>Найдено: 3</h2>
       <p>Сортировка:</p>
       <div class="sorting">
-        <a href="#" class="byprice">по цене</a>
+        <div class="byprice active">
+          <a>по цене</a>
+        </div>
         <a href="#">по типу</a>
         <a href="#">по рейтингу</a>
       </div>
-      <div class="triangle-up"></div>
-      <div class="triangle-down"></div>
+      <div class="triangles">
+        <div class="triangle-up"></div>
+        <div class="triangle-down active"></div>
+      </div>
     </div>
 
     <div class="house-block">    
@@ -116,7 +120,7 @@
           <div class="hotel-name">
             <a href="#">Amara resort &amp; spa</a>
           </div>
-           <div class="house-desc-middle">Гостиница от 4000 р.</div>
+          <div class="house-desc-middle amara-desc">Гостиница <span>от 4000 р.</span></div>
           <div class="info-desc">    
             <a href="#" class="info-btn">Подробнее</a>
             <a href="#" class="reservation-btn">Забронировать</a>
@@ -131,15 +135,15 @@
           <img src="img/Desert-foto-small.jpg" width="135" height="90" alt="фото desert">
         </div>
         <div class="house-desc">
-        <div class="hotel-name">
-          <a href="#">Desert Quail Inn</a>
+          <div class="hotel-name">
+            <a href="#">Desert Quail Inn</a>
           </div>
-          <div class="house-desc-middle">Мотель от 3000 р. </div>
+          <div class="house-desc-middle desert-desc">Мотель <span>от 3000 р.</span></div>
           
           <div class="info-desc">
-          <a href="#" class="info-btn">Подробнее</a>
-          <a href="#" class="reservation-btn">Забронировать</a>
-        </div>
+            <a href="#" class="info-btn">Подробнее</a>
+            <a href="#" class="reservation-btn">Забронировать</a>
+          </div>
         </div>
         <span class="house-rating">Рейтинг: 8,9</span>
         <div class="rating-star-three"></div>
@@ -150,22 +154,22 @@
           <img src="img/Villas-foto-small.jpg" width="135" height="90" alt="фото villas">
         </div>
         <div class="house-desc">
-        <div class="hotel-name">
-          <a href="#">Villas At Poco Diablo</a>
+          <div class="hotel-name">
+            <a href="#">Villas At Poco Diablo</a>
           </div>
-          <div class="house-desc-middle">Апартаменты от 2000 р.</div>
+          <div class="house-desc-middle villas-desc">Апартаменты <span>от 2000 р.</span></div>
 
           <div class="info-desc">
-          <a href="#" class="info-btn">Подробнее</a>
-          <a href="#" class="reservation-btn">Забронировать</a>
+            <a href="#" class="info-btn">Подробнее</a>
+            <a href="#" class="reservation-btn">Забронировать</a>
+          </div>
         </div>
-        </div>
-        <span class="house-rating">Рейтинг: 9,1</span>
+        <span class="house-rating">Рейтинг: 9,2</span>
         <div class="rating-star-two"></div>
       </article>
     </div>
   </main>
-  <footer class="main-footer-hotels container">
+  <footer class="main-footer-hotels">
     <div class="main-footer-layout">
       <section class="footer-visit">
         <p>#visitsedona</p>
