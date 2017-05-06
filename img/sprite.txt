@@ -1,0 +1,191 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Burger-Icon {
+    width: 74px;
+    height: 70px;
+    background-position: -10px -10px;
+}
+
+.sprite-Calendar-Active {
+    width: 21px;
+    height: 22px;
+    background-position: -10px -100px;
+}
+
+.sprite-Calendar-Hover {
+    width: 21px;
+    height: 22px;
+    background-position: -10px -142px;
+}
+
+.sprite-Calendar-Normal {
+    width: 21px;
+    height: 22px;
+    background-position: -10px -184px;
+}
+
+.sprite-Check-Icon {
+    width: 26px;
+    height: 22px;
+    background-position: -10px -226px;
+}
+
+.sprite-Check-Icon-empty {
+    width: 22px;
+    height: 22px;
+    background-position: -10px -268px;
+}
+
+.sprite-Gift-Icon {
+    width: 64px;
+    height: 76px;
+    background-position: -10px -310px;
+}
+
+.sprite-House-Icon {
+    width: 75px;
+    height: 72px;
+    background-position: -10px -406px;
+}
+
+.sprite-Html-Icon-Active {
+    width: 113px;
+    height: 39px;
+    background-position: -10px -498px;
+}
+
+.sprite-Html-Icon-Hover {
+    width: 113px;
+    height: 39px;
+    background-position: -10px -557px;
+}
+
+.sprite-Html-Icon-Normal {
+    width: 113px;
+    height: 39px;
+    background-position: -10px -616px;
+}
+
+.sprite-Minus-Icon-active {
+    width: 12px;
+    height: 3px;
+    background-position: -10px -675px;
+}
+
+.sprite-Minus-Icon-hover {
+    width: 12px;
+    height: 3px;
+    background-position: -10px -698px;
+}
+
+.sprite-Minus-Icon-normal {
+    width: 12px;
+    height: 3px;
+    background-position: -10px -721px;
+}
+
+.sprite-Plus-Icon-active {
+    width: 11px;
+    height: 11px;
+    background-position: -10px -744px;
+}
+
+.sprite-Plus-Icon-hover {
+    width: 11px;
+    height: 11px;
+    background-position: -10px -775px;
+}
+
+.sprite-Plus-Icon-normal {
+    width: 11px;
+    height: 11px;
+    background-position: -10px -806px;
+}
+
+.sprite-Stars2-Icon {
+    width: 42px;
+    height: 17px;
+    background-position: -10px -837px;
+}
+
+.sprite-Stars3-Icon {
+    width: 65px;
+    height: 17px;
+    background-position: -10px -874px;
+}
+
+.sprite-Stars4-Icon {
+    width: 89px;
+    height: 17px;
+    background-position: -10px -911px;
+}
+
+.sprite-faceb-icon-active {
+    width: 47px;
+    height: 48px;
+    background-position: -10px -948px;
+}
+
+.sprite-faceb-icon-hover {
+    width: 47px;
+    height: 48px;
+    background-position: -10px -1016px;
+}
+
+.sprite-faceb-icon-normal {
+    width: 47px;
+    height: 48px;
+    background-position: -10px -1084px;
+}
+
+.sprite-range-button-hover {
+    width: 20px;
+    height: 23px;
+    background-position: -10px -1152px;
+}
+
+.sprite-range-button-normal {
+    width: 20px;
+    height: 23px;
+    background-position: -10px -1195px;
+}
+
+.sprite-tube-icon-active {
+    width: 46px;
+    height: 48px;
+    background-position: -10px -1238px;
+}
+
+.sprite-tube-icon-hover {
+    width: 46px;
+    height: 48px;
+    background-position: -10px -1306px;
+}
+
+.sprite-tube-icon-normal {
+    width: 46px;
+    height: 48px;
+    background-position: -10px -1374px;
+}
+
+.sprite-tweet-icon-active {
+    width: 46px;
+    height: 48px;
+    background-position: -10px -1442px;
+}
+
+.sprite-tweet-icon-hover {
+    width: 46px;
+    height: 48px;
+    background-position: -10px -1510px;
+}
+
+.sprite-tweet-icon-normal {
+    width: 46px;
+    height: 48px;
+    background-position: -10px -1578px;
+}
