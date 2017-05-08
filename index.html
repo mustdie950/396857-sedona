@@ -8,144 +8,150 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-  <header class="main-header">
+<header class="main-header">
     <div class="index-logo">
       <a class="logo-pic"></a>
     </div>
     <nav class="main-navigation">
-      <div class="menu-info">
-        <a href="#">Информация</a>
-      </div>
-      <div class="menu-foto">
-        <a href="#">Фото и Видео</a>
-      </div>
-      <div class="menu-map">
-        <a href="#">Карта штата</a>
-      </div>
-      <div class="menu-hotels">
+      <ul>
+        <li class="left">
+          <a href="#">Информация</a>
+        </li>
+        <li class="left-middle">
+          <a href="#">Фото и видео</a>
+        </li>
+        <li class="right-middle">
+         <a href="#">Карта штата</a>
+       </li>
+       <li class="right">
         <a href="hotels.html">Гостиницы</a>
-      </div>
-    </nav>
-  </header>
-  <main class="container">
-    <section class="main-page-content-top">
-      <div class="main-page-pic">
-        <img src="img/Main-foto.jpg" width="1200" height="780" alt="слоган сайта">
-      </div>
-      <div class="main-content-name">
-        <b>Седона — небольшой городок в аризоне, заслуживающий большего!</b>
-        <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-      </div>
-    </section>
-
-    <section class="main-page-content-fact1">
-      <div class="content-fact-name">
-        <b>Настоящий<br> городок</b>
-        <p>&mdash; №1 &mdash;</p>
-        <p>Седона &mdash; не аттракцион для туристов,<br> там течет своя жизнь</p>
-      </div>
-      <div class="content-fact-foto">
-        <img src="img/Foto-fact-1.jpg" width="800" height="256" alt="фото с флагом">
-      </div>    
-    </section>
-
-    <section class="features-top">
-      <div class="features-item">
-        <div class="house-pic"></div>
-        <b class="features-name">Жилье</b>
-        <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-      </div>
-      <div class="features-item">
-        <div class="burger-pic"></div>
-        <b class="features-name">Еда</b>
-        <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-      </div>
-      <div class="features-item">
-        <div class="gift-pic"></div>
-        <b class="features-name">Сувениры</b>
-        <p>Не только китайского, но и местного производства!</p>
-      </div>
-    </section>
-
-    <section class="main-page-content-fact2">
-      <div class="content-fact-name">
-        <b>Там есть<br> мост дьявола</b>
-        <p>&mdash; №2 &mdash;</p>
-        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-      </div>
-      <div class="content-fact-foto">
-        <img src="img/Foto-fact-2.jpg" width="800" height="256" alt="вид на каньон">
-      </div>    
-    </section>  
-
-    <section class="features-bottom">
-      <div class="features-item-bottom">
-        <b class="features-name">Небольшая<br> площадь</b>
-        <p>&mdash; №3 &mdash;</p>
-        <p>Все достопримечательности  находятся очень близко</p>
-      </div>
-      <div class="features-item-bottom">
-        <b class="features-name">Красивая<br> дорога</b>
-        <p>&mdash; №4 &mdash;</p>
-        <p>Ехать в седону из лас-вегаса совсем не скучно!</p>
-      </div>
-      <div class="features-item-bottom">
-        <b class="features-name">Мало<br> туристов</b>
-        <p>&mdash; №5 &mdash;</p>
-        <p>Большинство едет в гранд каньон и толпится там</p>
-      </div>
-    </section>
-
-    <div class="search-form-title">
-      <div class="desc-search">
-        <h2>Заинтересовались?</h2>
-        <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <a class="button-search-form" href="#">Поиск гостиницы в седоне</a>
-      </div>
+      </li>
+    </ul>
+  </nav>
+</header>
+<main class="container">
+  <section class="main-page-content-top">
+    <div class="main-page-pic">
+      <img src="img/Main-foto.jpg" width="1200" height="780" alt="слоган сайта">
     </div>
-    
-    <div class="search-form-dynamic">
-      <div class="frame-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d465964.4693461057!2d-111.9391999776695!3d34.8423053523895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNg!5e0!3m2!1sru!2sru!4v1493925449740" width="1200" height="580"></iframe>
-      </div>
-      <div class="search-form-block">
-        <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
-          <div class="indate-block">
-            <label for="indate-field">дата заезда:</label>
-            <input type="text" name="indate" id="indate-field" value="24 апреля 2017">
-            <button class="btn-calendar clnd-btn" type="button"></button>           
-          </div>
+    <div class="main-content-name">
+      <b>Седона — небольшой городок в аризоне, заслуживающий большего!</b>
+      <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+    </div>
+  </section>
 
-          <div class="outdate-block">
-            <label for="outdate-field">дата выезда:</label>
-            <input type="text" name="outdate" id="outdate-field" value="4 июля 2017">
-            <button class="btn-calendar clnd-btn" type="button"></button> 
-          </div>
+  <section class="main-page-content-fact1">
+    <div class="content-fact-name">
+      <b>Настоящий<br> городок</b>
+      <p>&mdash; №1 &mdash;</p>
+      <p>Седона &mdash; не аттракцион для туристов,<br> там течет своя жизнь</p>
+    </div>
+    <div class="content-fact-foto">
+      <img src="img/Foto-fact-1.jpg" width="800" height="256" alt="фото с флагом">
+    </div>    
+  </section>
 
-          <div class="adult-child-block">
-            <div class="adult">
-              <label for="adult-field">Взрослые:</label>
-              <input type="text" name="adult" id="adult-field" value="2" placeholder="2">
-            </div>
+  <section class="features-top">
+    <div class="features-item">
+      <div class="pic house-pic"></div>
+      <b class="features-name">Жилье</b>
+      <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+    </div>
 
-            <div class="child">
-              <label for="children-field">Дети:</label>
-              <input type="text" name="children" id="children-field" value="0" placeholder="0">
-            </div>
-          </div>
-          <div class="buttons-search-form">
-           <button class="btn-search-prev-adult minus-btn" type="button"></button>
-           <button class="btn-search-next-adult plus-btn" type="button"></button>
-           <button class="btn-search-prev-child minus-btn" type="button"></button>
-           <button class="btn-search-next-child plus-btn" type="button"></button>
-         </div>
+    <div class="features-item">
+      <div class="pic burger-pic"></div>
+      <b class="features-name">Еда</b>
+      <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+    </div>
 
-         <div class="btn-show-result">
-          <button class="btn-search" type="submit">Найти</button>
-        </div>
-      </form>
-    </div>     
+    <div class="features-item">
+      <div class="pic gift-pic"></div>
+      <b class="features-name">Сувениры</b>
+      <p>Не только китайского, но и местного производства!</p>
+    </div>
+  </section>
+
+  <section class="main-page-content-fact2">
+    <div class="content-fact-name">
+      <b>Там есть<br> мост дьявола</b>
+      <p>&mdash; №2 &mdash;</p>
+      <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+    </div>
+    <div class="content-fact-foto">
+      <img src="img/Foto-fact-2.jpg" width="800" height="256" alt="вид на каньон">
+    </div>    
+  </section>  
+
+  <section class="features-bottom">
+    <div class="features-item-bottom">
+      <b class="features-name">Небольшая<br> площадь</b>
+      <p>&mdash; №3 &mdash;</p>
+      <p>Все достопримечательности<br>  находятся очень близко</p>
+    </div>
+
+    <div class="features-item-bottom">
+      <b class="features-name">Красивая<br> дорога</b>
+      <p>&mdash; №4 &mdash;</p>
+      <p>Ехать в седону из лас-вегаса совсем<br> не скучно!</p>
+    </div>
+
+    <div class="features-item-bottom">
+      <b class="features-name">Мало<br> туристов</b>
+      <p>&mdash; №5 &mdash;</p>
+      <p>Большинство едет в гранд каньон и<br> толпится там</p>
+    </div>
+  </section>
+
+  <div class="search-form-title">
+    <div class="desc-search">
+      <h2>Заинтересовались?</h2>
+      <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+      <a class="button-search-form" href="#">Поиск гостиницы в седоне</a>
+    </div>
   </div>
+
+  <div class="search-form-dynamic">
+    <div class="frame-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d465964.4693461057!2d-111.9391999776695!3d34.8423053523895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNg!5e0!3m2!1sru!2sru!4v1493925449740" width="1200" height="580"></iframe>
+    </div>
+    <div class="search-form-block">
+      <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="indate-block">
+          <label for="indate-field">дата заезда:</label>
+          <input type="text" name="indate" id="indate-field" value="24 апреля 2017">
+          <button class="btn-calendar clnd-btn" type="button"></button>           
+        </div>
+
+        <div class="outdate-block">
+          <label for="outdate-field">дата выезда:</label>
+          <input type="text" name="outdate" id="outdate-field" value="4 июля 2017">
+          <button class="btn-calendar clnd-btn" type="button"></button> 
+        </div>
+
+        <div class="adult-child-block">
+          <div class="adult">
+            <label for="adult-field">Взрослые:</label>
+            <input type="text" name="adult" id="adult-field">
+          </div>
+
+          <div class="child">
+            <label for="children-field">Дети:</label>
+            <input type="text" name="children" id="children-field">
+          </div>
+        </div>
+        <div class="buttons-search-form">
+         <button class="btn-search-prev-adult minus-btn" type="button"></button>
+         <button class="btn-search-next-adult plus-btn" type="button"></button>
+         <button class="btn-search-prev-child minus-btn" type="button"></button>
+         <button class="btn-search-next-child plus-btn" type="button"></button>
+       </div>
+
+       <div class="btn-show-result">
+        <button class="btn-search" type="submit">Найти</button>
+      </div>
+    </form>
+  </div>     
+</div>
 </main>
 
 <footer class="main-footer container">
@@ -154,9 +160,9 @@
       <p>#visitsedona</p>
     </section>
     <div class="footer-social">
-      <a class="social-btn social-btn-tw" href="#">tw</a>
-      <a class="social-btn social-btn-fb" href="#">fb</a>
-      <a class="social-btn social-btn-yt" href="#">yt</a>
+      <a class="social-btn social-btn-tw" href="#">Twitter</a>
+      <a class="social-btn social-btn-fb" href="#">Facebook</a>
+      <a class="social-btn social-btn-yt" href="#">YouTube</a>
     </div>
     <section class="footer-copyright">
       <p>Website by</p>
@@ -164,5 +170,32 @@
     </section> 
   </div>
 </footer>
+
+<script>
+  var link = document.querySelector(".button-search-form");
+  var popup = document.querySelector(".search-form-block");
+  
+  var form = popup.querySelector("form");
+  var adult = popup.querySelector("[name=adult]");
+  var children = popup.querySelector("[name=children]");
+
+  var storage = localStorage.getItem("adult");
+
+  link.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.toggle("search-form-block-close");
+  });
+
+
+  form.addEventListener("submit", function(event) {
+    if (!adult.value || !children.value) {
+      event.preventDefault();
+      console.log("Нужно ввести кол-во взрослых и детей"); 
+    } else {
+      localStorage.setItem("adult", adult.value);
+    }
+  });
+</script>
+
 </body>
 </html>
