@@ -56,6 +56,13 @@ iframe {
   -ms-flex-align: center;
   align-items: center;
 }
+
+.main-navigation li {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
+  vertical-align: top;
+}
 .main-navigation a {
   display: block;
   color: #000;
@@ -63,6 +70,11 @@ iframe {
   font-size: 14px;
   line-height: 26px;
 }
+.main-navigation .active span {
+  color: #766357;
+}
+
+
 .left {
   margin-left: 33px;
 }
@@ -83,9 +95,8 @@ iframe {
   color: rgba(0, 0, 0, 0.3)
 }
 
-.main-navigation > .active > a {
-  color: #766357;
-}
+
+
 
 .index-logo {
   position: absolute;
