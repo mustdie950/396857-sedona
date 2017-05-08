@@ -457,7 +457,7 @@ iframe {
 
 .adult-child-block input[type="text"] {
   display: inline-block;
-  vertical-align: inherit;
+  vertical-align: middle;
   width: 40px;
   height: 38px;
   border: none;
@@ -469,8 +469,8 @@ iframe {
   font-weight: 700;
   font-size: 14px;
   color: #000;
-  border-top: 2px solid #f9f9f9;
-  border-bottom: 2px solid #f9f9f9;
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
   background-color: #f2f2f2;
   position: relative;
 }
@@ -1173,7 +1173,7 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
   color: #fff;
 }
 .hotel-name {
-  max-width: 775px;
+  max-width: 890px;
 }
 
 
@@ -1214,47 +1214,43 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
 }
 
 .rating-star-four {
-  position: absolute;
+  float: right;
+  margin-top: 4px;
   width: 89px;
   height: 17px;
   background-color: #ccc;
   z-index: 55;
-  right: 71px;
-  top: 27px;
   background: url(../img/sprite.png);
   background-position: -10px -1285px;
 }
 .rating-star-three {
-  position: absolute;
+  float: right;
+  margin-top: 4px;
   width: 65px;
   height: 17px;
   background-color: #ccc;
   z-index: 55;
-  right: 71px;
-  top: 27px;
   background: url(../img/sprite.png);
   background-position: -10px -1248px;
 }
 .rating-star-two {
-  position: absolute;
+  float: right;
+  margin-top: 4px;
   width: 42px;
   height: 17px;
   background-color: #ccc;
   z-index: 55;
-  right: 71px;
-  top: 27px;
   background: url(../img/sprite.png);
   background-position: -10px -1211px;
 }
 .house-rating {
-  position: relative;
+  float: right;
   height: 22px;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   padding: 4px 12px;
-  top: 0;
-  left:518px;
+  margin-left: 523px;
   color: #666;
   background-color: #f2f2f2;
 }
