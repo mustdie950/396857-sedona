@@ -8,7 +8,7 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<header class="main-header">
+  <header class="main-header">
     <div class="index-logo">
       <a class="logo-pic"></a>
     </div>
@@ -131,27 +131,28 @@
         <div class="adult-child-block">
           <div class="adult">
             <label for="adult-field">Взрослые:</label>
+            <div class="form-input">
+            <button class="btn-search-prev-adult minus-btn" type="button"></button>
             <input type="text" name="adult" id="adult-field">
+            <button class="btn-search-next-adult plus-btn" type="button"></button>
+            </div>
           </div>
 
           <div class="child">
             <label for="children-field">Дети:</label>
-            <input type="text" name="children" id="children-field">
+            <div class="form-input">
+            <button class="btn-search-prev-child minus-btn" type="button"></button>
+            <input type="text" name="children" id="children-field">           
+            <button class="btn-search-next-child plus-btn" type="button"></button>
+            </div>
           </div>
         </div>
-        <div class="buttons-search-form">
-         <button class="btn-search-prev-adult minus-btn" type="button"></button>
-         <button class="btn-search-next-adult plus-btn" type="button"></button>
-         <button class="btn-search-prev-child minus-btn" type="button"></button>
-         <button class="btn-search-next-child plus-btn" type="button"></button>
-       </div>
-
-       <div class="btn-show-result">
-        <button class="btn-search" type="submit">Найти</button>
-      </div>
-    </form>
-  </div>     
-</div>
+        <div class="btn-show-result">
+          <button class="btn-search" type="submit">Найти</button>
+        </div>
+      </form>
+    </div>     
+  </div>
 </main>
 
 <footer class="main-footer container">
@@ -170,32 +171,10 @@
     </section> 
   </div>
 </footer>
-
-<script>
-  var link = document.querySelector(".button-search-form");
-  var popup = document.querySelector(".search-form-block");
-  
-  var form = popup.querySelector("form");
-  var adult = popup.querySelector("[name=adult]");
-  var children = popup.querySelector("[name=children]");
-
-  var storage = localStorage.getItem("adult");
-
-  link.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    popup.classList.toggle("search-form-block-close");
-  });
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popup.js"></script>
 
 
-  form.addEventListener("submit", function(event) {
-    if (!adult.value || !children.value) {
-      event.preventDefault();
-      console.log("Нужно ввести кол-во взрослых и детей"); 
-    } else {
-      localStorage.setItem("adult", adult.value);
-    }
-  });
-</script>
 
 </body>
 </html>
