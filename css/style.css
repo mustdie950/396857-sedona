@@ -143,7 +143,7 @@ iframe {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   flex-direction: row;
-  margin-top:619px;
+  margin-top: 619px;
   text-align: center;
   color: #fff;
   background-color: #81b3d2;
@@ -169,7 +169,18 @@ iframe {
   font-size: 14px;
   line-height: 21px;
 }
-
+.fact-name {
+  max-width: 151px;
+  margin: auto;
+}
+.br {
+  margin: auto;
+  max-width: 287px;
+}
+.br2 {
+  margin: auto;
+  max-width: 270px;
+}
 
 
 .features-top {
@@ -192,9 +203,8 @@ iframe {
 }
 
 .features-name {
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 21px;
+  margin: auto;
+  width: 125px;
 }
 
 .features-item p {
@@ -252,15 +262,9 @@ iframe {
 }
 
 .features-item-bottom {
-  width: 285px;
+  width: 284px;
   position: relative;
   margin-top: 47px;
-}
-
-.features-name-bottom {
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 21px;
 }
 
 .features-item-bottom p{
