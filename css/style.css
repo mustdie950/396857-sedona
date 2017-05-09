@@ -95,16 +95,12 @@ iframe {
   color: rgba(0, 0, 0, 0.3)
 }
 
-
-
-
 .index-logo {
   position: absolute;
   padding-left: 3px;
   padding-right: 3px;
   z-index: 25;
 }
-
 .logo-pic::before {
   content: "";
   position: absolute;
@@ -147,19 +143,19 @@ iframe {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   flex-direction: row;
-  margin-top:619px;
+  margin-top: 619px;
   text-align: center;
   color: #fff;
-  height: 256px;
   background-color: #81b3d2;
 }
-
+.content-fact-foto {
+  height: 256px;
+}
 .content-fact-name {
   width: 320px;
   margin-top: 43px;
   margin-left: 41px;
   margin-right: 40px;
-  text-align: center;
 }
 
 .content-fact-name b {
@@ -173,7 +169,6 @@ iframe {
   font-size: 14px;
   line-height: 21px;
 }
-
 
 .features-top {
   display: -ms-flexbox;
@@ -192,13 +187,6 @@ iframe {
   margin-top: 37px;
   text-align: center; 
   position: relative;
-}
-
-.features-name {
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 21px;
-
 }
 
 .features-item p {
@@ -241,7 +229,6 @@ iframe {
   flex-direction: row-reverse;
   text-align: center;
   color: #fff;
-  height: 256px;
   background-color: #81b3d2;
 } 
 
@@ -257,15 +244,9 @@ iframe {
 }
 
 .features-item-bottom {
-  width: 285px;
+  width: 284px;
   position: relative;
   margin-top: 47px;
-}
-
-.features-name-bottom {
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 21px;
 }
 
 .features-item-bottom p{
@@ -504,6 +485,7 @@ iframe {
   width: 30px;
   height: 30px;
   padding-left: 15px;
+  font-size: 0;
   border: none;
   cursor: pointer;
   background-color: transparent;
@@ -541,6 +523,7 @@ iframe {
   width: 30px;
   height: 30px;
   padding-left: 10px;
+  font-size: 0;
   border: none;
   cursor: pointer;
   background: #f2f2f2;
@@ -655,14 +638,13 @@ iframe {
 
 .main-footer {
   position: relative;
+  z-index: 2;
+  background-color: rgba(254,254,254,0.9);
 }
 .main-footer .main-footer-layout{
   width: 1200px;
   min-height: 120px;
-  position: absolute;
-  bottom: 0;  
-  z-index: 5;
-  background-color: rgba(254,254,254,0.9);
+  margin-top: -120px;
 }
 
 .main-footer-hotels {
@@ -1078,6 +1060,7 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
   z-index: 55;
   width: 0;
   height: 0;
+  font-size: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-bottom: 9px solid rgba(0,0,0,0.3);
@@ -1101,6 +1084,7 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
   z-index: 55;
   width: 0;
   height: 0;
+  font-size: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: 9px solid rgba(0,0,0,0.3);
@@ -1182,8 +1166,12 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
   text-decoration: none;
   color: #fff;
 }
+.info-desc {
+  clear: left;
+}
 .hotel-name {
-  max-width: 890px;
+  max-width: 700px;
+  float: left;
 }
 
 
@@ -1228,6 +1216,7 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
   margin-top: 4px;
   width: 89px;
   height: 17px;
+  font-size: 0;
   background-color: #ccc;
   z-index: 55;
   background: url(../img/sprite.png);
@@ -1238,6 +1227,7 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
   margin-top: 4px;
   width: 65px;
   height: 17px;
+  font-size: 0;
   background-color: #ccc;
   z-index: 55;
   background: url(../img/sprite.png);
@@ -1248,6 +1238,7 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
   margin-top: 4px;
   width: 42px;
   height: 17px;
+  font-size: 0;
   background-color: #ccc;
   z-index: 55;
   background: url(../img/sprite.png);
