@@ -169,19 +169,6 @@ iframe {
   font-size: 14px;
   line-height: 21px;
 }
-.fact-name {
-  max-width: 151px;
-  margin: auto;
-}
-.br {
-  margin: auto;
-  max-width: 287px;
-}
-.br2 {
-  margin: auto;
-  max-width: 270px;
-}
-
 
 .features-top {
   display: -ms-flexbox;
@@ -200,11 +187,6 @@ iframe {
   margin-top: 37px;
   text-align: center; 
   position: relative;
-}
-
-.features-name {
-  margin: auto;
-  width: 125px;
 }
 
 .features-item p {
