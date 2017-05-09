@@ -146,7 +146,6 @@ iframe {
   margin-top:619px;
   text-align: center;
   color: #fff;
-/*  min-height: 256px;*/
   background-color: #81b3d2;
 }
 .content-fact-foto {
@@ -238,7 +237,6 @@ iframe {
   flex-direction: row-reverse;
   text-align: center;
   color: #fff;
-  min-height: 256px;
   background-color: #81b3d2;
 } 
 
