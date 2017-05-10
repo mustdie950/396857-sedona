@@ -152,10 +152,13 @@ iframe {
   height: 256px;
 }
 .content-fact-name {
-  width: 320px;
+  width: 312px;
   margin-top: 43px;
-  margin-left: 41px;
-  margin-right: 40px;
+  margin-left: 45px;
+  margin-right: 44px;
+}
+.fact-name {
+  width: 135px;
 }
 
 .content-fact-name b {
@@ -244,12 +247,16 @@ iframe {
 }
 
 .features-item-bottom {
-  width: 284px;
-  position: relative;
+  width: 280px;
   margin-top: 47px;
+
+}
+.features-name {
+  width: 120px;
+  margin: auto;
 }
 
-.features-item-bottom p{
+.features-item-bottom p {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -1139,9 +1146,6 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
   display: inline-block;
   margin-left: 20px;
 }
-.type-name {
-  min-width: 97px;
-}
 
 .house-foto {
   margin-left: 71px;
@@ -1151,11 +1155,18 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
 .house-desc {
   margin-left: 30px;
   margin-top: 23px;
+  width: 700px;
+
 }
 .house-desc p {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
+}
+.info-desc {
+  float: left;
+  margin-bottom: 30px;
+
 }
 .info-desc a {
   font-weight: 700;
@@ -1166,14 +1177,12 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
   text-decoration: none;
   color: #fff;
 }
-.info-desc {
-  clear: left;
-}
-.hotel-name {
-  max-width: 700px;
-  float: left;
-}
 
+.star-rating-block {
+  float: left;
+  margin-top: 28px;
+  margin-left: 85px;
+}
 
 .hotel-name a {
   font-weight: 700;
@@ -1212,46 +1221,39 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
 }
 
 .rating-star-four {
-  float: right;
-  margin-top: 4px;
+  margin-left: 20px;
+  margin-bottom: 45px;
   width: 89px;
   height: 17px;
   font-size: 0;
-  background-color: #ccc;
-  z-index: 55;
   background: url(../img/sprite.png);
   background-position: -10px -1285px;
 }
 .rating-star-three {
-  float: right;
-  margin-top: 4px;
+  margin-left: 41px;
+  margin-bottom: 45px;
   width: 65px;
   height: 17px;
   font-size: 0;
-  background-color: #ccc;
-  z-index: 55;
   background: url(../img/sprite.png);
   background-position: -10px -1248px;
 }
 .rating-star-two {
-  float: right;
-  margin-top: 4px;
+  margin-left: 64px;
+  margin-bottom: 45px;
   width: 42px;
   height: 17px;
   font-size: 0;
-  background-color: #ccc;
-  z-index: 55;
   background: url(../img/sprite.png);
   background-position: -10px -1211px;
 }
 .house-rating {
-  float: right;
+  float: left;
   height: 22px;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   padding: 4px 12px;
-  margin-left: 523px;
   color: #666;
   background-color: #f2f2f2;
 }
